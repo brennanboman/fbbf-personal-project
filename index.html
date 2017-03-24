@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html ng-app="personalProj">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Personal Project</title>
-  </head>
-  <body>
-    <h1>Personal Project</h1>
-  </body>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="styles/views/main.css">
+    <link rel="stylesheet" href="styles/views/landing.css">
+
+    <link rel="stylesheet" href="styles/fonts/fonts.css">
+
+</head>
+
+<body>
+
+    <div class="top-nav">
+        <div class="nav-logo">Fantasy BBall Finder</div>
+        <div class="home-button">a</div>
+    </div>
+
+    <ui-view></ui-view>
+
+    <div class="bottom-nav">
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <script src="../js/app.js"></script>
+
+
+</body>
+
 </html>

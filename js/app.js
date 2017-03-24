@@ -5,3 +5,7 @@ angular.module('personalProj', ['ui.router'])
             url: '/',
             templateUrl: 'views/landing.html'
           })
+
+          $urlRouterProvider
+      .otherwise('/');
+});

@@ -1,0 +1,38 @@
+.landing-main-container {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-main-container p {
+  font-size: 40px;
+}
+
+.main-landing-image-container {
+
+}
+
+.main-landing-image {
+  height: 300px;
+  width: 500px;
+  background-color: black;
+}
+
+.signup-login-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.signup {
+  font-size: 30px;
+  border: 1px;
+  border-color: grey;
+  padding: 50px;
+}
+
+.login {
+  font-size: 30px;
+  padding: 50px;
+
+}

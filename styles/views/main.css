@@ -1,0 +1,18 @@
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-nav {
+  
+}
+
+.nav-logo {
+  color: black;
+}
+
+.home-button {
+  height: 25px;
+  width: 25px;
+  background-color: grey;
+}
