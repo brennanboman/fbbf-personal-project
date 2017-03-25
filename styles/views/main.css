@@ -4,7 +4,7 @@
 }
 
 .bottom-nav {
-  
+
 }
 
 .nav-logo {
@@ -12,7 +12,5 @@
 }
 
 .home-button {
-  height: 25px;
-  width: 25px;
-  background-color: grey;
+  cursor: pointer;
 }

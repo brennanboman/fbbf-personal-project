@@ -1,0 +1,36 @@
+.create-join-container {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  align-items: center;
+}
+
+.create-group {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.join-group {
+  height: 250px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.or {
+  align-self: center;
+  font-size: 30px;
+}

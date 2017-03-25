@@ -1,0 +1,22 @@
+.login-main-container {
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  height: 600px;
+
+}
+
+.login-image {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+}
+
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-inputs p {
+  font-size: 40px;
+}

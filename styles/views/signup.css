@@ -1,0 +1,43 @@
+.signup-main-container {
+display: flex;
+justify-content: space-around;;
+align-items: center;
+
+height: 600px;
+}
+
+.signup-left-container {
+
+}
+
+.signup-left-image {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+.signup-inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.signup-inputs p {
+  font-size: 40px;
+}
+
+.signup-inputs input {
+  height: 40px;
+  width: 300px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+.signup-inputs button {
+  font-family: 'Carrois Gothic', sans-serif;
+  height: 40px;
+  width: 305px;
+  font-size: 30px;
+  margin-top: 10px
+}
