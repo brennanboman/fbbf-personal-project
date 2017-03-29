@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 600px;
+  height: 700px;
 }
 
 .create-group-text {
@@ -30,7 +30,7 @@
 
 .inputs-create-group button {
   height: 40px;
-  width: 305px;
+  width: 306px;
   font-size: 30px;
   margin-top: 10px;
   font-family: 'Carrois Gothic', sans-serif;

@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-around;;
   align-items: center;
-  height: 600px;
-
+  height: 800px;
+  flex-wrap: wrap;
+  background: url(upsidedownhoop.jpg) no-repeat;
+  background-size: cover;
 }
 
 .login-image {
@@ -15,6 +17,22 @@
 .login-inputs {
   display: flex;
   flex-direction: column;
+}
+
+.login-inputs input {
+  height: 40px;
+  width: 300px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+.login-inputs button {
+  height: 40px;
+  width: 306px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Carrois Gothic', sans-serif;
 }
 
 .login-inputs p {

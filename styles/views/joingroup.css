@@ -1,0 +1,19 @@
+.join-group-container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-group-container p {
+  font-size: 40px;
+}
+
+
+.available-groups {
+  height: 600px;
+  width: 400px;
+  background-color: grey;
+  overflow: scroll;
+}

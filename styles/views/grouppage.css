@@ -1,0 +1,41 @@
+.group-page-container {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.group-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group-name {
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #1F1A4F;
+}
+
+.group-members {
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: #C82027;
+}
+
+.group-message-board {
+  height: 500px;
+  width: 400px;
+  background-color: grey;
+  display: flex;
+  align-items: flex-end;
+}
+
+.group-message-board input {
+  height: 30px;
+  width: 400px;
+  font-size: 30px;
+}

@@ -25,6 +25,10 @@ angular.module('personalProj', ['ui.router'])
             url: '/joingroup',
             templateUrl: 'views/joingroup.html'
           })
+          .state('grouppage', {
+            url: '/grouppage',
+            templateUrl: 'views/grouppage.html'
+          })
 
           $urlRouterProvider
       .otherwise('/');

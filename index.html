@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="styles/views/login.css">
     <link rel="stylesheet" href="styles/views/createorjoin.css">
     <link rel="stylesheet" href="styles/views/creategroup.css">
+    <link rel="stylesheet" href="styles/views/joingroup.css">
+    <link rel="stylesheet" href="styles/views/grouppage.css">
 
 
 </head>
@@ -24,13 +26,17 @@
 
     <div class="top-nav">
         <div class="nav-logo">Fantasy BBall Finder</div>
-        <div ui-sref="landing" class="home-button">Home</div>
+
+        <div class="home-button-background">
+          <div ui-sref="landing" class="home-button">Home</div>
+        </div>
+
     </div>
 
     <ui-view></ui-view>
 
     <div class="bottom-nav">
-
+      <div class="created-by-brennan">Created by Brennan Boman - 2017</div>
     </div>
 
 

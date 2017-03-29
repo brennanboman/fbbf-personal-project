@@ -2,8 +2,10 @@
 display: flex;
 justify-content: space-around;;
 align-items: center;
-
-height: 600px;
+height: 700px;
+flex-wrap: wrap;
+background: url(landing-bballhoop.jpg) no-repeat 30% 20%;
+background-size: cover;
 }
 
 .signup-left-container {
@@ -37,7 +39,7 @@ height: 600px;
 .signup-inputs button {
   font-family: 'Carrois Gothic', sans-serif;
   height: 40px;
-  width: 305px;
+  width: 306px;
   font-size: 30px;
   margin-top: 10px
 }
