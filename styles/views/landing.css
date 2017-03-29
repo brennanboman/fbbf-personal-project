@@ -41,8 +41,7 @@
   background-color: #1800fa;
   border-radius: 4px;
   box-shadow: 2px 6px 5px 0px rgba(59,58,59,1);
-  margin-right: 10px;
-  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .login {
@@ -54,7 +53,7 @@
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 2px 6px 5px 0px rgba(59,58,59,1);
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .login-button {
