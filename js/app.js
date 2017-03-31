@@ -1,4 +1,4 @@
-angular.module('personalProj', ['ui.router'])
+angular.module('fbbf', ['ui.router'])
   .config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
           .state('landing', {
@@ -28,6 +28,10 @@ angular.module('personalProj', ['ui.router'])
           .state('grouppage', {
             url: '/grouppage',
             templateUrl: 'views/grouppage.html'
+          })
+          .state('home', {
+            url: '/home',
+            templateUrl: 'views/home.html'
           })
 
           $urlRouterProvider

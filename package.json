@@ -1,0 +1,25 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brennanboman/personal-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brennanboman/personal-project/issues"
+  },
+  "homepage": "https://github.com/brennanboman/personal-project#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.2",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2"
+  }
+}
